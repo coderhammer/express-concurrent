@@ -1,9 +1,11 @@
-import test, { beforeEach } from "node:test";
+import { test } from "node:test";
+import { beforeEach } from "node:test";
 import { strict as assert } from "node:assert";
-import request from "supertest";
+import * as request from "supertest";
 
-import express, { NextFunction, Request, Response, Express } from "express";
-import { concurrent } from "../express.middleware.js";
+import * as express from "express";
+import { NextFunction, Request, Response, Express } from "express";
+import { concurrent } from "../express.middleware";
 
 let app: Express;
 
