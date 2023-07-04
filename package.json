@@ -1,5 +1,6 @@
 {
   "name": "@hammerbot/express-concurrent",
+  "private": false,
   "version": "0.0.2",
   "description": "A middleware to control maximum concurrent requests through an express app",
   "type": "module",
