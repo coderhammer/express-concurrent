@@ -9,6 +9,9 @@
   "files": [
     "dist/"
   ],
+  "repository": {
+    "url": "https://github.com/coderhammer/express-queued"
+  },
   "scripts": {
     "test": "node --no-warnings=ExperimentalWarning --test-reporter spec --test --loader ts-node/esm $(find src -name '*.test.ts')",
     "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
