@@ -16,7 +16,7 @@ npm install @hammerbot/express-concurrent
 
 ## Usage
 
-```
+```ts
 import express from 'express'
 import {concurrent} from '@hammerbot/express-concurrent'
 
