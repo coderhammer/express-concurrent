@@ -9,7 +9,7 @@
     "dist/"
   ],
   "repository": {
-    "url": "https://github.com/coderhammer/express-queued"
+    "url": "https://github.com/coderhammer/express-concurrent"
   },
   "scripts": {
     "test": "node --no-warnings=ExperimentalWarning --test-reporter spec --test --loader ts-node/esm $(find src -name '*.test.ts')",
